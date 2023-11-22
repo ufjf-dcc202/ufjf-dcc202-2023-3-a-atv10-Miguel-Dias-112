@@ -13,7 +13,7 @@ function getJoao(){
 function setMaria(num){
     maria=num
 }
-function setMaria(num){
+function setJoao(num){
     joao=num
 }
 function deJoaoParaMaria(){
@@ -24,4 +24,4 @@ function deMariaParaJoao(){
     maria=joao+maria;
     joao=0
 }
-export{getJoao,getMaria,deJoaoParaMaria,deJoaoParaMaria};
+export{getJoao,getMaria,setMaria,setJoao,deMariaParaJoao,deJoaoParaMaria};
