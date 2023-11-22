@@ -11,17 +11,27 @@ function getJoao(){
     return joao;
 }
 function setMaria(num){
-    maria=num
+    if(num>=0){
+        maria=num
+
+    }else{
+        maria=0
+    }
 }
 function setJoao(num){
-    joao=num
+    if(num>=0){
+        joao=num
+
+    }else{
+        joao=0
+    }
 }
-function deJoaoParaMaria(){
+function deMariaParaJoao(){
     joao=joao+maria;
-    maria=0
+    joao=0
 }
 function deMariaParaJoao(){
     maria=joao+maria;
-    joao=0
+    maria=0
 }
 export{getJoao,getMaria,setMaria,setJoao,deMariaParaJoao,deJoaoParaMaria};
