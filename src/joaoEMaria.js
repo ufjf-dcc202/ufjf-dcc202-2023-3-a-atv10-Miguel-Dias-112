@@ -26,12 +26,14 @@ function setJoao(num){
         joao=0
     }
 }
-function deMariaParaJoao(){
-    joao=joao+maria;
+function deJoaoParaMaria(){
+    maria = joao + maria;
+
     joao=0
 }
 function deMariaParaJoao(){
-    maria=joao+maria;
-    maria=0
+    joao=joao+maria;
+
+    maria = 0;
 }
 export{getJoao,getMaria,setMaria,setJoao,deMariaParaJoao,deJoaoParaMaria};
