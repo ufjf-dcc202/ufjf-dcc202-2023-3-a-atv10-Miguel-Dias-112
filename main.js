@@ -1,4 +1,4 @@
-import{getMaria,getJoao} from './joaoEMARIA.js'
+import{getMaria,getJoao} from './joaoEMaria.js'
 import { deJoaoParaMaria, setJoao, setMaria } from './joaoEMaria.js';
 
 setMaria(4);
